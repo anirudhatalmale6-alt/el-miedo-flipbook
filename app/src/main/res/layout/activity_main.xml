@@ -4,11 +4,10 @@
     android:layout_height="match_parent"
     android:background="#F5F5F0">
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager"
+    <com.elmiedo.app.PageCurlView
+        android:id="@+id/pageCurlView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal" />
+        android:layout_height="match_parent" />
 
     <!-- Subtle page indicator -->
     <TextView
